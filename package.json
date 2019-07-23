@@ -1,0 +1,24 @@
+{
+  "name": "bucket-tree",
+  "version": "0.0.1",
+  "description": "bitbucket tree",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/pplenty"
+  },
+  "keywords": [
+    "bitbucket",
+    "tree"
+  ],
+  "author": "yusik <jason.parsing@gmail.com> (https://github.com/pplenty)",
+  "license": "ISC",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "webpack": "^4.37.0",
+    "webpack-cli": "^3.3.6"
+  }
+}
