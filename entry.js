@@ -2,6 +2,8 @@
  * @author yusik
  */
 
-const hello = require('./src/hello');
-const world = require('./src/world');
+import hello from './src/hello';
+import world from './src/world';
+require('./src/style.css') 
+
 document.write(hello + ', ' + world + '!');

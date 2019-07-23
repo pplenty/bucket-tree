@@ -2,5 +2,5 @@
  * @author yusik
  */
 
-// console.log("World");
-module.exports = 'World';
+console.log("World");
+export default 'World';

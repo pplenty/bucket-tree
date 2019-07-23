@@ -2,5 +2,5 @@
  * @author yusik
  */
 
-// console.log("Hello");
-module.exports = 'Hello';
+console.log("Hello");
+export default 'Hello';

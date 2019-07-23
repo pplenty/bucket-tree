@@ -1,0 +1,29 @@
+{
+  "name": "Hello Extensions",
+  "description" : "Base Level Extension",
+  "author": "yusik",
+  "version": "$VERSION",
+  "manifest_version": 2,
+  "minimum_chrome_version": "60",
+  "browser_action": {
+    "default_icon": "hello_extensions.png"
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Z",
+        "mac": "MacCtrl+Shift+Z"
+      },
+      "description": "Opens hello.html"
+    }
+  },
+  "content_scripts": [
+    {
+      "run_at": "document_start",
+      "matches": ["https://github.com/*"],
+      "js": ["content.js"],
+      "css": ["content.css"]
+    }
+  ]
+
+}
