@@ -6,6 +6,6 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'extension/chrome'),
-    filename: 'bundle.js'
+    filename: 'content.js'
   }
 };
